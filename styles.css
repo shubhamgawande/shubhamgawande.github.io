@@ -14,15 +14,15 @@ html {
 
 body a {
   text-decoration: none;
-  color: #FF4D4D;
+  color: #5588ff;
 }
 
 body a:hover {
-  color: #FF8A8A;
+  color: #77aaff;
 }
 
 #side a {
-  color: #FF4D4D;
+  color: #5588ff;
   font-size: 1em;
 }
 
@@ -56,7 +56,7 @@ h4 {
   color: black;
   font-size: 1.2rem;
   letter-spacing: 0.05em;
-  color: #FF4D4D;
+  color: #5588ff;
 }
 
 h5 {
@@ -225,8 +225,8 @@ i.fa.fa-bars.toggle {
   /*display: inline-block;*/
 }
 
-.pink {
-  color: #FF4D4D;
+.sky_blue {
+  color: #5588ff;
 }
 
 .intro-side a {
@@ -564,7 +564,7 @@ i.fa.fa-bars.toggle {
 
 .spinner {
   border: 10px solid #f3f3f3; /* Light grey */
-    border-top: 10px solid #FF4D4D; /* Blue */
+    border-top: 10px solid #5588ff; /* Blue */
     border-radius: 50%;
     width: 80px;
     height: 80px;
