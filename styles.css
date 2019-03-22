@@ -14,15 +14,15 @@ body {
   
   body a {
     text-decoration: none;
-    color: #FF4D4D;
+    color: #4267b2;
   }
   
   body a:hover {
-    color: #FF8A8A;
+    color: #678ddb;
   }
   
   #side a {
-    color: #FF4D4D;
+    color: #4267b2;
     font-size: 1em;
   }
   
@@ -229,6 +229,10 @@ body {
   
   .pink {
     color: #FF4D4D;
+  }
+
+  .sky_blue{
+     color: #4267b2;
   }
   
   .intro-side a {
@@ -568,7 +572,7 @@ body {
   
   .spinner {
     border: 10px solid #f3f3f3; /* Light grey */
-      border-top: 10px solid #FF4D4D; /* Blue */
+      border-top: 10px solid #4267b2; /* Blue */
       border-radius: 50%;
       width: 80px;
       height: 80px;
