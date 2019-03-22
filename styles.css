@@ -167,8 +167,6 @@ i.fa.fa-bars.toggle {
     text-align: center;
   }
 
-  .title {
-  }
 }
 
 /***** FOOTER ******/
@@ -442,9 +440,7 @@ i.fa.fa-bars.toggle {
 }
 */
 @media screen and (max-width: 768px) {
-  .columns {
-    /*width: 85%;*/
-  }
+
 
   .is-one-third {
     width: 100%;
@@ -540,7 +536,7 @@ i.fa.fa-bars.toggle {
 }
 
 .columns p {
-  color: ##3F4144;
+  color: #3F4144;
   line-height: 2.15em;
   font-size: 0.95rem;
   letter-spacing: 0.02rem;
