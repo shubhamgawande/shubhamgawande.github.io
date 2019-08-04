@@ -1,20 +1,125 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Shubham Gawande</title>
-	<!-- styles -->
-	<link href="styles.css" rel="stylesheet" type="text/css"><!-- fonts -->
-	<link href="https://use.typekit.net/rsg6iht.css" rel="stylesheet">
-	<link href="animate.css" rel="stylesheet"><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><!-- javascript --><script src="scripts.js" type="text/javascript"></script><script src="flowtype.js" type="text/javascript"></script>
-	<link href="sg_icon.png" rel="shortcut icon"><meta name="viewport" content="width=device-width">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shubham Gawande</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
+    <script src="./js/main.js"></script>
 </head>
-<body ><!-- <div id = "loader"><div class = "spinner"></div></div> -->
-<div id="container">
-<div class="animated fadeIn" id="intro">
-<div id="intro-text">
-<h1>brb under construction! <span class="sky_blue">—</span></h1>
-<span>Hi I'm Shubham and I'm a UI Designer + Developer. My portfolio is undergoing some construction so in the meantime you can check out my resume <a href="ShubhamG_Resume.pdf">here</a> or drop me an <a href="mailto:ishubhamgawande@gmail.com">email</a>. <br><span class="light-grey"> You can also catch me at Dribbble next month!</span></span><br>
-<br>
-<!-- <a href = "#work">Scroll Down <i class="fa fa-chevron-circle-down"></i></a> --></div>
-</div>
-</div>
-<!-- container -->
-</body></html>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+            <input type="checkbox" name="menu" id="nav" class="hidden">
+            <label for="nav" class="navButton">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label>
+            
+            <div class="logo">
+                <a href="index.html" title="Shubham Gawande">Shubham Gawande</a>
+            </div>
+            <div class="navWrapper">
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a target="_blank" href="SG_Resume_new.pdf">Resume</a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="sections">
+        <!-- Title Section Start -->
+        <section id="intro">
+            <div class="container">
+                <div class="sectionTitle">
+                    <h1>Hi! I am Shubham, a UX/UI Designer + Frontend Developer.</h1>
+                    <p class="bigText mt1 width3quarter">I convert ideas into elegant designs and develop them into powerful
+                        digital interfaces.
+                    </p>
+                    <p class="bigText lightGrey mt1">Previously worked at KPIT Technologies Ltd.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Title Section End -->
+
+        <!-- Case Study Navigation Start -->
+        <section id="boxes">
+            <div class="container">
+                <div class="gallery-container">
+                    <div class="gallery-item" data-index="1">
+                        <a class="caseBoxLink" href="./caseStudy/quantix.html">
+                           <div class="imageContainer">
+                                <div class="quantixImage"></div>
+                            </div>
+                            <div class="boxDesc">
+                                <h4>Quantix - Powered data and analytics</h4>
+                                <p>A powerful web based financial application aimed at providing deep insights for better decision making.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery-item" data-index="2">
+                        <a class="caseBoxLink" href="">
+                           <div class="imageContainer">
+                                <div class="ratingsImage"></div>
+                            </div>
+                            <div class="boxDesc">
+                                <h4>Ratings Engine - An Analytical Workbench</h4>
+                                <p>A web based application that enables its users to perform research operations on the company's database.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container boxTopMargin">
+                    <div class="gallery-container">
+                        <div class="gallery-item" data-index="1">
+                            <a class="caseBoxLink" href="">
+                               <div class="imageContainer">
+                                    <div class="equinoxImage"></div>
+                                </div>
+                                <div class="boxDesc">
+                                    <h4>Equinox - Your Potential. Our Platform.</h4>
+                                    <p>A national level technical symposium for computer enthusiasts held at Nashik-MH, India.</p>
+                                </div>
+                            </a>
+                        </div>
+                       
+                    </div>
+                </div>
+        </section>
+        <!-- Case Study Navigation End -->
+
+        <!-- Contact Start -->
+        <section id="contactMe">
+            <div class="container">
+                <div class="contactMail width3quarter lightGrey">
+                    <p>I am always looking for people to collaborate with. If you have
+                        a project in mind, then feel free to get in touch with me. I’d
+                        love to hear from you.</p>
+                    <a class="contactLink mt1" href="mailto:ishubhamgawande@gmail.com">Get in Touch &rarr;</a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact End -->
+
+        <!-- Footer Start -->
+        <footer>
+            <div class="container">
+                <p class="lightGrey">ishubhamgawande@gmail.com</p>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+    </div>
+
+</body>
+
+</html>
