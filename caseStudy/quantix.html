@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shubham Gawande</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css">
-    <script src="./js/main.js"></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/main.js"></script>
 </head>
 
 <body>
@@ -24,24 +27,25 @@
             <div class="logo">
                 <a href="../index.html" title="Shubham Gawande">Shubham Gawande</a>
             </div>
-            <div class="navWrapper">
+            <div id="navWrap" class="navWrapper">
                 <ul>
-                    <li class="current"><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html">Home</a></li>
                     <li><a href="../about.html">About</a></li>
-                    <li><a target="_blank" href="SG_Resume_new.pdf">Resume</a></li>
+                    <li><a target="_blank" href="../SG_Resume_new.pdf">Resume</a></li>
                 </ul>
             </div>
+            
             </nav>
         </div>
     </header>
 
     <div class="sections">
-        <!-- Title Section Start -->
+         <!-- Title Section Start -->
         <section id="intro">
-            <div class="container">
+            <div class="container wow animated fadeIn" data-wow-duration="3s">
                 <div class="sectionTitle">
                     <h1>Quantix - Powered data and analytics.</h1>
-                     <p class="bigText mt1 width70 lightGrey">A powerful web based financial application aimed at providing deep insights for better decision making.
+                     <p class="bigText mt1 titleWidth lightGrey">A powerful web based financial application aimed at providing deep insights for better decision making.
                     </p>
                 </div>
             </div>
@@ -50,7 +54,7 @@
 
         <!-- Image Section Start -->
         <section id="imageFull">
-            <div class="fullImageWrapper">
+            <div class="fullImageWrapper wow animated fadeInUp">
                 <img src="../images/one.png" alt="Quantix">
             </div>
         </section>
@@ -58,9 +62,9 @@
 
         <!-- Overview Section Start -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper">
-                    <div class="subSectionTitle">
+                    <div class="subSectionTitle ">
                         <h4>Overview</h4>
                     </div>
                     <div class="subSectionContent">
@@ -109,15 +113,15 @@
 
         <!-- About Section Start -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper">
                     <div class="subSectionTitle">
                         <h4>About</h4>
                     </div>
-                    <div class="subSectionContent">
+                    <div class="subSectionContent ">
                           <p>Quantix is CRISIL's data and analytics platform with information on 25,000+ companies across 200+ industries.
-                            It is a cross segment analytics tool to drive growth in the Research business. <br><br> 
-                            The product positioned as a unique offering of data, tools and analytics, was released in a modular fashion 
+                            It is a cross segment analytics tool to drive growth in the Research business.</p> <br>
+                          <p>The product positioned as a unique offering of data, tools and analytics, was released in a modular fashion 
                             and has recieved positive response from the market.</p>
                     </div>
                 </div>
@@ -126,9 +130,9 @@
         </section>
         <!-- About Section End -->
 
-        <!-- Challenge Section Start -->
+         <!-- Challenge Section Start -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper">
                     <div class="subSectionTitle">
                         <h4>Challenge</h4>
@@ -136,9 +140,9 @@
                     <div class="subSectionContent">
                          <p>CRISIL identified the need to utilse their large financial data repository to develop a powerful platform to serve 
                             the emerging need of better decision making.Our team was challenged to build a web based application with different 
-                            tools and modules to assist its user to execute effective financial strategies.
-                            <br><br>
-                            However, the financial data that CRISIL owns covers vast segments of data that comes in different formats. With such large
+                            tools and modules to assist its user to execute effective financial strategies.</p>
+                            <br>
+                            <p>However, the financial data that CRISIL owns covers vast segments of data that comes in different formats. With such large
                             quantity of data and the complex computations performed on the same using the tools provided by the application, how can we organize
                             these resources and make something simple, informative and easy to use helping the user's find what they need ?</p>
                     </div>
@@ -148,9 +152,9 @@
         </section>
         <!-- Challenge Section End -->
 
-        <!-- Solution Section Start -->
+        <!-- Solution Section End -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper">
                     <div class="subSectionTitle">
                         <h4>Solution</h4>
@@ -158,9 +162,9 @@
                     <div class="subSectionContent">
                        <p> Quantix is an online web platform which enables users to gain insights and perform complex computations over rich financial data using
                            multiple tools and modules. The different features of the app are orgainzed with a dashboard based platform for ease of navigation and 
-                           clear representation of data.
-                           <br><br>
-                           On the technology front <span class="paraLink"> <a target="_blank" href="https://angular.io/">Angular</a> </span> was selected as the base framework to build the application for its capability to build Single Page application
+                           clear representation of data.</p>
+                           <br>
+                         <p> On the technology front <span class="paraLink"> <a target="_blank" href="https://angular.io/">Angular</a> </span> was selected as the base framework to build the application for its capability to build Single Page application
                            in a very accurate and maintainable way. Apart from angular <span class="paraLink""> <a target="_blank" href="https://www.amcharts.com/">Amcharts</a> </span> library was used for data visualization using
                            charts and graphs.
                        </p>
@@ -173,7 +177,7 @@
 
         <!-- Approach Section Start -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper">
                     <div class="subSectionTitle">
                         <h4>Approach</h4>
@@ -182,7 +186,9 @@
                        <p> Although our brief was to develop a web application that enables users to perform complex calculations on 
                            financial data and provide accurate results with the help of different tools, we stressed that merely focusing on the function
                            could neither compete with the other competitor apps in the market, nor had the best interests of the app's use at heart.
-                           <br><br>
+                       </p>
+                           <br>
+                        <p>
                            To differentiate ourselves in such a competitive market, we needed to find a desirable role for the application and how it would
                            meet the both functional and aesthetic needs of the users. We wanted to design something more meaningful.
                        </p>
@@ -195,7 +201,7 @@
 
         <!-- Process Section Start -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper">
                     <div class="subSectionTitle">
                         <h4>Process</h4>
@@ -207,7 +213,7 @@
                             to ensuring that our project delivered a solid solution.
                         </p>
                         <div class="imageWrapper mt1">
-                            <img src="../images/ProcessImage.png" alt="Process Image">
+                            <div class="processImage"></div>
                         </div>
                     </div>
                 </div>
@@ -216,10 +222,10 @@
         </section>
         <!-- Process Section End -->
 
-         <!-- Ideation Section Start -->
+        <!-- Ideation Section End -->
         <section id="sub">
-            <div class="container">
-                <div class="wrapper">
+            <div class="container wow animated fadeInUp">
+                <div class="wrapper ">
                     <div class="subSectionTitle">
                         <h4>Ideation</h4>
                     </div>
@@ -229,10 +235,10 @@
                             by the stakeholders helped me understand context knowledge and because of context knowledge, I was able to produce different ideas.
                         </p>
                         <div class="imageWrapper mt1">
-                            <img src="../images/sketch1.jpg" width="100%" height="auto" alt="Process Image">
-                            <img src="../images/sketch2.jpg" class="mt1" width="100%" height="auto" alt="Process Image">
+                            <div class="wireFrameImage1"></div>
+                            <div class="wireFrameImage2"></div>
                         </div>
-
+                        
                         <br><br>
 
                         <h5 class="paraHeading">Wireframing</h5>
@@ -241,12 +247,9 @@
                 
                         </p>
                         <div class="imageWrapper mt1">
-                            <img src="../images/wireframe1.png" alt="Process Image">
+                            <div class="wireFrameImage3"></div>
+                            <div class="wireFrameImage4"></div>
                         </div>
-                        <div class="imageWrapper mt1">
-                            <img src="../images/wireframe2.png" alt="Process Image">
-                        </div>
-
                     </div>
                 </div>
                 <div class="seperator"></div>
@@ -254,9 +257,9 @@
         </section>
         <!-- Ideation Section End -->
 
-        <!-- Design Section Start -->
+         <!-- Design Section Start -->
         <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper smallMargin">
                     <div class="subSectionTitle">
                         <h4>Design</h4>
@@ -271,43 +274,145 @@
                     </div>
                 </div>
             </div>
-        </section>
 
-        <div class="fullImageWrapper">
-             <img src="../images/dashboard1.jpg" alt="Quantix">
-        </div>
+            <div class="fullImageWrapper imgBottomMargin wow animated fadeInUp">
+                <img src="../images/qDashboard.png" alt="Quantix">
+            </div>
+            
 
-        <section id="sub">
-            <div class="container">
+            <div class="container wow animated fadeInUp">
                 <div class="wrapper smallMargin">
                     <div class="subSectionTitle">
-                        <h4></h4>
+                       
                     </div>
                     <div class="subSectionContent">
-                        <h5 class="paraHeading">Dashboard</h5>
-                        <p> This is the first screen that the user will see after they login to the application. The goal of the UI design is to keep it quite simplistic
-                            and to provide a quick overview of different modules available in the application. It also provides the user with single click access to the core modules.
+                        <h5 class="paraHeading">Industry Profile</h5>
+                        <p> Industry Profile is one of the core modules of the application. The module provides the user with the access to 
+                            data of about 200+ industries across India with the abilty to perfrom analytical operations to gain insights.
+                            Being one of the core modules of application it was also one of the most difficult one to design considering the amount of 
+                            data that was to be made available to the user. The data was represented in tabular and graphical form along with filters and other 
+                            input operations whenever necessary.
                         </p>
                         
 
                     </div>
                 </div>
             </div>
-        </section>
 
-        <!-- Design Section End -->
-
-        
-
-        <!-- Footer Start -->
-        <footer>
-            <div class="container">
-                <p class="lightGrey">ishubhamgawande@gmail.com</p>
+             <div class="fullImageWrapper imgBottomMargin wow animated fadeInUp">
+                <img src="../images/qIndPro.png" alt="Quantix">
             </div>
-        </footer>
-        <!-- Footer End -->
+
+            <div class="container wow animated fadeInUp">
+                <div class="wrapper smallMargin">
+                    <div class="subSectionTitle">
+                       
+                    </div>
+                    <div class="subSectionContent">
+                        <h5 class="paraHeading">Industry Benchmark</h5>
+                        <p> Industry Benchmark Module allows user with the ability to generate financial reports as per the user's criteria. Depending on the 
+                            input provided by the user, the report generated will be made available on the same page with the ability to download in Excel or PDF Format. The 
+                            user could also save the input selection for further use which can be regenerated with the load and generate selections.<br>
+                        </p>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="fullImageWrapper imgBottomMargin wow animated fadeInUp">
+                <img src="../images/qIndBench.png" alt="Quantix">
+            </div>
+
+            <div class="container wow animated fadeInUp">
+                <div class="wrapper smallMargin">
+                    <div class="subSectionTitle">
+                       
+                    </div>
+                    <div class="subSectionContent">
+                        <h5 class="paraHeading">Portfolio</h5>
+                        <p> Similar to the Industry Profile, users have the ability to manage their credit portfolio over the application. 
+                            A feature of our design to improve the micro interactions and make the data available to the user in a compact form.
+                            Focusing on this feature allowed us to structure the information in a way that maximum information is made available to the user
+                            as quickly as possible with the limited scrollable area.  <br>
+                        </p>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="fullImageWrapper imgBottomMargin wow animated fadeInUp">
+                <img src="../images/qPortfolio.png" alt="Quantix">
+            </div>
+        </section>
+         <!-- Design Section End -->
+
+         <!-- Takeaway Section Start -->
+        <section id="sub">
+            <div class="container wow animated fadeInUp">
+                <div class="wrapper">
+                    <div class="subSectionTitle">
+                        <h4>Development</h4>
+                    </div>
+                    <div class="subSectionContent">
+                        <p> Once the wireframe designs were ready and approved by the business team, we proceeded with the Front-end Developent along 
+                            with a team of dedicated developers and business analysts. Most of the Front-end development was done in HTML, CSS and JavaScript.
+                            Additionaly Amcharts library was used to render the data in graphical form.
+                        </p>
+                    </div>
+                </div>
+                <div class="seperator"></div>
+            </div>
+        </section>
+        <!-- Process Section End -->
+
+        <!-- Takeaway Section Start -->
+        <section id="sub">
+            <div class="container wow animated fadeInUp">
+                <div class="wrapper">
+                    <div class="subSectionTitle">
+                        <h4>Final Takeaways</h4>
+                    </div>
+                    <div class="subSectionContent">
+                        <p> The Quantix Application was a very large and complex working application and took several months to design and create with multiple releases.
+                            In order to arrive at the final design, we completed a thorough analysis of all the sections and also with the business team to make sure all their
+                            requierments were met in terms of overall performance. Additionaly I have recieved poitive feedback from the users about the simplified and direct
+                            approach towards the design and the complete user experience.
+                        </p>
+                    </div>
+                </div>
+                <div class="seperator"></div>
+            </div>
+        </section>
+        <!-- Process Section End -->
+
+        <!-- Takeaway Section Start -->
+        <section id="sub">
+            <div class="container wow animated fadeInUp">
+                <div class="wrapper mb3">
+                    <div class="prevCase">
+                        <a class="contactLink mt1" href=""> <span class="lightGrey"> &larr; Previous Project: </span> Equinox </a>
+                    </div>
+                    <div class="nextCase">
+                        <a class="contactLink mt1" href=""><span class="lightGrey">Next Project: </span> Ratings Engine &rarr;</a>
+                    </div>
+                </div>
+                <div class="seperator"></div>
+            </div>
+        </section>
+        <!-- Process Section End -->
+
 
     </div>
+
+     <!-- Footer Start -->
+    <footer>
+        <div class="container">
+        <p class="lightGrey">ishubhamgawande@gmail.com</p>
+        </div>
+    </footer>
+        <!-- Footer End -->
 
 </body>
 

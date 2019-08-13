@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shubham Gawande</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
     <script src="./js/main.js"></script>
 </head>
@@ -24,13 +26,14 @@
             <div class="logo">
                 <a href="index.html" title="Shubham Gawande">Shubham Gawande</a>
             </div>
-            <div class="navWrapper">
+            <div id="navWrap" class="navWrapper">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li class="current"><a href="about.html">About</a></li>
                     <li><a target="_blank" href="SG_Resume_new.pdf">Resume</a></li>
                 </ul>
             </div>
+            
             </nav>
         </div>
     </header>
@@ -39,7 +42,7 @@
         <!-- Title Section Start -->
         <section id="intro">
             <div class="container">
-                <div class="sectionTitle">
+                <div class="sectionTitle animated fadeIn" id="introTitle">
                     <h1>About</h1>
                 </div>
             </div>
@@ -50,10 +53,10 @@
         <section id="about">
             <div class="container">
                 <div class="contentContainer">
-                    <div class="aboutImage">
+                    <div class="aboutImage animated fadeInUp">
                         <img src="./images/profile.png" alt="Profile Picture">
                     </div>
-                    <div class="aboutText">
+                    <div class="aboutText animated fadeInUp">
                         <p class="ntm">I’m an UI designer and front-end developer with a background in Computer Engineering.
                              I have always been fascinated about powerful, elegant and impactful designs 
                              and opportunity it presents to positively affect people on a broader scale.

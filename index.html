@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Shubham Gawande</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css">
     <script src="./js/main.js"></script>
 </head>
@@ -24,13 +26,14 @@
             <div class="logo">
                 <a href="index.html" title="Shubham Gawande">Shubham Gawande</a>
             </div>
-            <div class="navWrapper">
+            <div id="navWrap" class="navWrapper">
                 <ul>
                     <li class="current"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a target="_blank" href="SG_Resume_new.pdf">Resume</a></li>
                 </ul>
             </div>
+            
             </nav>
         </div>
     </header>
@@ -39,12 +42,13 @@
         <!-- Title Section Start -->
         <section id="intro">
             <div class="container">
-                <div class="sectionTitle">
-                    <h1>Hi! I am Shubham, a UX/UI Designer + Frontend Developer.</h1>
-                    <p class="bigText mt1 width3quarter">I convert ideas into elegant designs and develop them into powerful
-                        digital interfaces.
+                <div class="sectionTitle animated fadeIn" id="introTitle">
+                    <h1>Hi! I am Shubham, <br> a UX/UI Designer + Frontend Developer.</h1>
+                    <p class="bigText mt1 titleWidth">I am passionate about creating meaningful digital experiences through clean design
+                        and efficient code. I specialize in UI/UX design and front-end web development, focused on converting ideas into meaningful solutions.
                     </p>
-                    <p class="bigText lightGrey mt1">Previously worked at KPIT Technologies Ltd.</p>
+                    
+                    <p class="lightGrey mt1">Previously worked at KPIT Technologies Ltd.</p>
                 </div>
             </div>
         </section>
@@ -53,7 +57,7 @@
         <!-- Case Study Navigation Start -->
         <section id="boxes">
             <div class="container">
-                <div class="gallery-container">
+                <div class="gallery-container animated fadeInUp">
                     <div class="gallery-item" data-index="1">
                         <a class="caseBoxLink" href="./caseStudy/quantix.html">
                            <div class="imageContainer">
@@ -71,7 +75,7 @@
                                 <div class="ratingsImage"></div>
                             </div>
                             <div class="boxDesc">
-                                <h4>Ratings Engine - An Analytical Workbench</h4>
+                                <h4>Ratings Engine - Analytical Workbench</h4>
                                 <p>A web based application that enables its users to perform research operations on the company's database.</p>
                             </div>
                         </a>
@@ -79,7 +83,7 @@
                 </div>
             </div>
             <div class="container boxTopMargin">
-                    <div class="gallery-container">
+                    <div class="gallery-container animated fadeInUp">
                         <div class="gallery-item" data-index="1">
                             <a class="caseBoxLink" href="">
                                <div class="imageContainer">
@@ -100,7 +104,7 @@
         <!-- Contact Start -->
         <section id="contactMe">
             <div class="container">
-                <div class="contactMail width3quarter lightGrey">
+                <div class="contactMail titleWidth lightGrey animated fadeIn">
                     <p>I am always looking for people to collaborate with. If you have
                         a project in mind, then feel free to get in touch with me. I’d
                         love to hear from you.</p>
@@ -119,7 +123,7 @@
         <!-- Footer End -->
 
     </div>
-
+   
 </body>
 
 </html>
