@@ -135,11 +135,6 @@ header nav ul li a{
     padding-bottom: 5px;
 }
 
-header nav li a:hover{
-    color: #565656;
-    border-bottom: 2px solid #5596EE;
-}
-
 #nav:checked + .navButton{
     transform: rotate(45deg);
 }
@@ -172,7 +167,13 @@ header nav li a:hover{
     transform: translateX(0);
 }
 
+.navWrapper ul li a.active{
+    color: #000000;
+}
 
+.navWrapper ul li a:hover{
+    color: #000000;
+}
 
 
 /* Case Study Boxes */
@@ -300,7 +301,7 @@ section#contactMe{
 /* Footer */
 
 footer{
-    margin-top: 9rem;
+    margin-top: 7rem;
     font-size: 0.8rem;
 }
 
@@ -362,7 +363,7 @@ section#sub{
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 .wrapper .subSectionTitle{
@@ -381,6 +382,19 @@ section#sub{
 
 .nextCase{
     text-align: right;
+}
+
+.navLinks{
+    text-decoration: none;
+}
+
+.linkLabel{
+    font-size: 0.9rem;
+    color: #a0a0a0;
+}
+
+.linkName{
+    font-size: 1.35rem;
 }
 
 .subSectionContent p{
@@ -757,7 +771,6 @@ section#sub{
         z-index: -1;
         background:#ffffff;
         opacity: 0;
-        transition: all 1s ease;
     }
 
     .navWrapper ul{
@@ -773,7 +786,6 @@ section#sub{
         width: 100%;
         text-align: center;
         margin-bottom: 70px;
-        animation: all 1s ease;
 
     }
 
@@ -832,18 +844,17 @@ section#sub{
         margin-top: 4px;
     }
 
-    header .current a{
-        color: #565656 !important;
-        box-sizing: border-box;
-        box-shadow: inset 0 -10px 0 rgb(85, 150, 238);
-        transition: 0.2s;
+ 
+
+
     }
 
-    header nav li a:hover{
-        color: #565656;
-        box-sizing: border-box;
-        box-shadow:0 -10px 0  rgb(85, 150, 238) inset;
-        transition: all ease 100ms;
+    .linkLabel{
+        font-size: 0.7rem;
+    }
+
+    .linkName{
+        font-size: 1rem;
     }
 
     /* Mobile Navigation End*/
