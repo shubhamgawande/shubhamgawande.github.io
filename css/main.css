@@ -456,6 +456,17 @@ section#sub{
     transition: all ease 0.3s;
 }
 
+a.paraLink{ 
+    color: #5596EE;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a.paraLink:hover{
+    color: #5588ce;
+    transition: all ease 0.3s;
+}
+
 .paraHeading{
     margin-top: 0px;
     margin-bottom: 0.5rem;
@@ -469,6 +480,14 @@ section#sub{
 
 .processImage{
     background-image: url('../images/ProcessImage.png');
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eqColor{
+    background-image: url('../images/eqColor.png');
     height: 200px;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -504,6 +523,28 @@ section#sub{
 .wireFrameImage4{
     background-image: url('../images/wFrame4.png');
     height: 510px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eqBox{
+    display: flex;
+}
+
+.eqSketch1{
+    flex-basis: 50%;
+    background-image: url('../images/eqSketch1.png');
+    height: 450px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.eqSketch2{
+    flex-basis: 50%;
+    background-image: url('../images/eqSketch2.png');
+    height: 450px;
     object-fit: cover;
     background-repeat: no-repeat;
     background-position: center;
