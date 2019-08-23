@@ -784,6 +784,12 @@ a.paraLink:hover{
         object-fit: cover;
     }
 
+    .eqColor{
+        background-image: url('../images/MobileView/eqColor_mobile.png');
+        height: 120px;
+        object-fit: cover;
+    }
+
     .wireFrameImage1{
         background-image: url('../images/MobileView/wFrame1_mobile.png');
         height: 120px;
@@ -802,6 +808,10 @@ a.paraLink:hover{
     .wireFrameImage4{
         background-image: url('../images/MobileView/wFrame4_mobile.png');
         height: 210px;
+    }
+
+    .eqBox{
+        display: block;
     }
 
     /*Mobile view Quantix Page End*/
