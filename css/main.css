@@ -275,6 +275,23 @@ section#boxes {
         transform: scale(1.05);
 }
 
+.tedImage{
+    background-image: url(../images/TEDxSIMSREE.png);
+    height: 360px;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center center;
+}
+
+.tedImage:hover{
+    transition:all 0.3s ease;
+}
+
+.tedImage:hover{
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+}
 
 
 
@@ -488,6 +505,14 @@ a.paraLink:hover{
 
 .eqColor{
     background-image: url('../images/eqColor.png');
+    height: 200px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tedColor{
+    background-image: url('../images/tedColor.png');
     height: 200px;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -786,6 +811,12 @@ a.paraLink:hover{
 
     .eqColor{
         background-image: url('../images/MobileView/eqColor_mobile.png');
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .tedColor{
+        background-image: url('../images/MobileView/tedColor_mobile.png');
         height: 120px;
         object-fit: cover;
     }
